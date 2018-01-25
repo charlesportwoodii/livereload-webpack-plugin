@@ -13,7 +13,7 @@ yarn add --dev @charlesportwoodii/livereload-webpack-plugin
 2. Add the plugin to your webpack configuration file
 
 ```js
-const LiveReloadWebpackPlugin = require('livereload-webpack-plugin');
+const LiveReloadWebpackPlugin = require('@charlesportwoodii/livereload-webpack-plugin');
 
 module.exports = [
     plugins: [
