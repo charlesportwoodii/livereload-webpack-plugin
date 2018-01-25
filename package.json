@@ -1,0 +1,39 @@
+{
+  "name": "livereload-webpack-plugin",
+  "version": "1.0.0",
+  "description": "LiveReload plugin for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charlesportwoodii/livereload-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "webpack-plugin",
+    "livereload"
+  ],
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "author": {
+    "name": "Charles R. Portwood II",
+    "email": "charlesportwoodii+npm@erianna.com",
+    "url": "https://www.erianna.com"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/charlesportwoodii/livereload-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/charlesportwoodii/livereload-webpack-plugin#readme",
+  "dependencies": {
+    "livereload": "^0.6.3"
+  },
+  "peerDependencies": {
+    "webpack": "^3.1.0"
+  }
+}
