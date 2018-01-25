@@ -7,7 +7,7 @@ Integrate LiveReload with webpack for those days when hot reload just doesn't cu
 1. Install the package
 
 ```
-yarn add --dev livereload-webpack-plugin
+yarn add --dev @charlesportwoodii/livereload-webpack-plugin
 ```
 
 2. Add the plugin to your webpack configuration file

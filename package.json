@@ -1,5 +1,5 @@
 {
-  "name": "livereload-webpack-plugin",
+  "name": "@charlesportwoodii/livereload-webpack-plugin",
   "version": "1.0.0",
   "description": "LiveReload plugin for webpack",
   "main": "index.js",
