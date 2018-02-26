@@ -1,6 +1,6 @@
 {
   "name": "@charlesportwoodii/livereload-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "LiveReload plugin for webpack",
   "main": "index.js",
   "scripts": {
@@ -31,9 +31,9 @@
   },
   "homepage": "https://github.com/charlesportwoodii/livereload-webpack-plugin#readme",
   "dependencies": {
-    "livereload": "^0.6.3"
+    "livereload": "^0.7.0"
   },
   "peerDependencies": {
-    "webpack": "^3.1.0"
+    "webpack": "^4.0.0"
   }
 }

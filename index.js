@@ -19,8 +19,7 @@ Object.defineProperty(LiveReloadWebpackPlugin.prototype, 'isRunning', {
 
 LiveReloadWebpackPlugin.prototype.apply = function apply(compiler) {
 	var self = this;
-	self.compiler = compiler;
-	compiler.plugin('watch-run', function(watching, callback) {
+	this.compiler.hooks.watchRun.tapAsync('watch-run', function(watching, callback) {
 		if (!self.isRunning) {
 			self.server = livereload.createServer(self.livereload);
 			self.server.watch(self.files);
